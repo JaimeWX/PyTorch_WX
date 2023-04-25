@@ -56,6 +56,6 @@ for idx,iteration in enumerate(range(1000)):
     correct = (mask == train_y).sum()
     acc = correct.item() / train_y.size(0)
 
-    print(idx,acc)
+    print(idx, acc)
     if acc > 0.99:
         break
